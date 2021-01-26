@@ -1,3 +1,7 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -18,56 +22,110 @@
 /*intestazione*/
 header {
   width: 100%;
-  /* debug */
-  height: 100px;
-  background: #e579e6;
+  font-size: 1.2vw;
+}
+
+nav {
+  padding: 3% 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 0 10px 0 0;
+  text-transform: uppercase;
+}
+
+li a {
+  text-decoration: none;
+  color: #9e9e9e;
+}
+
+li a:hover {
+  color: #000;
+}
+
+.logo-cont {
+  width: 15%;
+  margin: 10px 0 0 0;
+  padding: 0 10px 0 0;
+  border-right: 0.5px solid #9e9e9e
+}
+
+.logo-cont img {
+  width: 100%;
 }
 
 /*corpo principale*/
+main {
+  width: 100%;
+}
+
+.jumbo {
+  width: 100%;
+  height: 70vh;
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  position: relative;
+}
+
+.layover {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index : 1;
+}
+
+.jumbo-title {
+  width: 50%;
+  color: #fff;
+  position: absolute;
+  bottom: 15%;
+  left: 5%;
+  z-index: 2;
+}
+
+.jumbo-title h2, h4{
+  font-weight: normal;
+
+}
+
+.jumbo-title h2 {
+  font-size: 5vh;
+}
+
+.jumbo-title h4 {
+  font-size: 2.5vh;
+}
+
 .article-cont {
   width: 100%;
-  /* debug */
-  background: #0086ff;
 }
 
-.img-cont {
-  width: 100%;
-  margin: 40px 0;
-  /* debug */
-  height: 300px;
-  background: #e1d67a;
-}
-
-aside {
+.aside {
   width: 15%;
   float: left;
-  /* debug */
-  height: 300px;
-  background: #abcfe7;
-  margin: 20px 0;
 }
 
 .title-cont {
   width: 100%;
-  /* debug */
-  height: 100px;
-  background: #abcfe7;
 }
 
 .main-cont {
   width: 68%;
   margin: 20px 1%;
   float: left;
-  /* debug */
-  height: 300px;
-  background: #abcfe7;
 }
 
 /*fine pagine*/
 footer {
   width: 100%;
   margin: 20px 0 0 0;
-  /* debug */
-  height: 100px;
-  background: #8601ff;
 }
