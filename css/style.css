@@ -37,12 +37,12 @@ nav ul li {
   text-transform: uppercase;
 }
 
-li a {
+nav li a {
   text-decoration: none;
   color: #9e9e9e;
 }
 
-li a:hover {
+nav li a:hover {
   color: #000;
 }
 
@@ -62,7 +62,7 @@ main {
   width: 100%;
 }
 
-h2, h3, h4{
+main h2, h3, h4{
  font-weight: normal;
 }
 
