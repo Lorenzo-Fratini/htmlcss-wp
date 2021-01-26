@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*intestazione*/
+header {
+  width: 100%;
+  /* debug */
+  height: 100px;
+  background: #e579e6;
+}
+
+/*corpo principale*/
+.article-cont {
+  width: 100%;
+  /* debug */
+  background: #0086ff;
+}
+
+.img-cont {
+  width: 100%;
+  margin: 40px 0;
+  /* debug */
+  height: 300px;
+  background: #e1d67a;
+}
+
+aside {
+  width: 15%;
+  float: left;
+  /* debug */
+  height: 300px;
+  background: #abcfe7;
+  margin: 20px 0;
+}
+
+.title-cont {
+  width: 100%;
+  /* debug */
+  height: 100px;
+  background: #abcfe7;
+}
+
+.main-cont {
+  width: 68%;
+  margin: 20px 1%;
+  float: left;
+  /* debug */
+  height: 300px;
+  background: #abcfe7;
+}
+
+/*fine pagine*/
+footer {
+  width: 100%;
+  margin: 20px 0 0 0;
+  /* debug */
+  height: 100px;
+  background: #8601ff;
+}
